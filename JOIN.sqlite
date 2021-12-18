@@ -1,0 +1,4 @@
+SELECT *
+FROM table
+JOIN table2
+  ON table.column_name = table2.column_name;
