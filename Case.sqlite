@@ -1,0 +1,7 @@
+SELECT column_name,
+  CASE
+    WHEN column_name = data THEN text
+    WHEN genre = data THEN text
+    ELSE text
+  END AS text
+FROM table;
