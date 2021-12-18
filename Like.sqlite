@@ -1,0 +1,4 @@
+SELECT * FROM table
+WHERE column_name LIKE '%';
+
+you cand use the percentage symbol to sinalize where the word should be positioned in the word you are looking for.
