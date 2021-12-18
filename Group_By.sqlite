@@ -1,0 +1,11 @@
+//Grouping by one
+
+SELECT column_name, column_name
+FROM table
+GROUP BY column_name;
+
+//Grouping by two
+
+SELECT column_name, column_name
+FROM table
+GROUP BY 1, 2;
