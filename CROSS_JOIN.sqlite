@@ -1,0 +1,4 @@
+SELECT table.column_name,
+   table2.column_name
+FROM table
+CROSS JOIN table2;
