@@ -1,0 +1,2 @@
+SELECT SUM(column_name or *)
+FROM table;
